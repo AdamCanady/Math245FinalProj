@@ -6,6 +6,8 @@ from slugify import slugify
 
 ZILLOW_KEY = os.getenv("ZILLOW_KEY")
 
+# JS to get addresses from webpage:
+# JSON.stringify(Array.prototype.map.call(document.getElementsByClassName("hdp-link routable"), function(i,elem){return (i.title);}))
 addresses = ["1620 Cannon Valley Dr, Northfield, MN",
              "1791 Larkspur Ct, Northfield, MN",
              "10310 295th St W, Northfield, MN",
